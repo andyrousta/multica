@@ -8,11 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "t",
-    "test:
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
-  },
+    "type-check": "tsc --},
   "dependencies": {
     "@ai-sdk/anthropic": "^0.0.39",
     "@ai-sdk/google": "^0.0.22",
