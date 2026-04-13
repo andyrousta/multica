@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc --},
+    "type-check": "tsc --noEmit"
+  },
   "dependencies": {
     "@ai-sdk/anthropic": "^0.0.39",
     "@ai-sdk/google": "^0.0.22",
