@@ -8,16 +8,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc --noEmit",
-    "format": "prettier --write .",
-    "test": "jest",
-    "test:watch": "jest --watch"
-  },
-  "dependencies": {
+    "type-check": "": {
     "@ai-sdk/anthropic": "^0.0.39",
     "@ai-sdk/google": "^0.0.22",
-    ": "^0.0.42",
-    "ai": "^3.2.sx": "^2.1.1",
+    "@ai-sdk/openai": "^0.0.42",
+    "ai": "^3.2.27",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
     "lucide-react": "^0.395.0",
     "next": "^14.3.1",
     "react": "^18.3.1",
